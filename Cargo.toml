@@ -1,0 +1,19 @@
+[package]
+name = "bevy_esm"
+version = "0.1.0"
+authors = ["Hans W. Uhlig <huhlig@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy_app = { git = "https://github.com/bevyengine/bevy.git" }
+bevy_asset = { git = "https://github.com/bevyengine/bevy.git" }
+bevy_core = { git = "https://github.com/bevyengine/bevy.git" }
+bevy_ecs = { git = "https://github.com/bevyengine/bevy.git" }
+bevy_log = { git = "https://github.com/bevyengine/bevy.git" }
+bevy_math = { git = "https://github.com/bevyengine/bevy.git" }
+bevy_reflect = { git = "https://github.com/bevyengine/bevy.git" }
+bevy_render = { git = "https://github.com/bevyengine/bevy.git" }
+bevy_transform = { git = "https://github.com/bevyengine/bevy.git" }
+bevy_utils = { git = "https://github.com/bevyengine/bevy.git" }
